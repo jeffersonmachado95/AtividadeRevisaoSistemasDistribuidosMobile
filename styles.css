@@ -1,0 +1,98 @@
+
+ul.estilizada li {
+    padding: 10px; /* Adicione preenchimento para espaçamento interno */
+    margin-bottom: 10px; /* Adicione margem na parte inferior para espaçamento entre itens */
+    background-color: #f2f2f2; /* Cor de fundo para realçar cada item */
+    border-radius: 5px; /* Borda arredondada para os itens */
+    list-style: none; /* Remova os marcadores ou números padrão */
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    margin: 20px;
+    max-width: 800px; /* Defina a largura máxima desejada */
+    margin: 0 auto; /* Centralize o conteúdo na página */
+    padding: 20px; /* Adicione preenchimento para espaçamento interno */ 
+  }
+
+.content {
+    padding: 10px; /* Adicione preenchimento interno de 10 pixels a todos os lados */
+  }
+
+.centered-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  
+
+
+.styled-block {
+    background-color: #f0f0f0;
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para o título dentro do bloco */
+  .styled-block h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para o parágrafo dentro do bloco */
+  .styled-block p {
+    font-size: 16px;
+    color: #555;
+  }
+
+  /* Estilos gerais do menu */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    overflow: auto;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos dos itens do menu */
+  .menu li {
+    padding: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 5px 10px;
+  }
+  
+  /* Estilos de hover nos itens do menu */
+  .menu li a:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos do conteúdo principal */
+  .content {
+    margin-left: 250px; /* Largura do menu */
+    padding: 20px; /* Adicione preenchimento para afastar o conteúdo da margem do menu */
+  }
+  
